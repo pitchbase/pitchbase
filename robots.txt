@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pitchbase.github.io/pitchbase/sitemap.xml
