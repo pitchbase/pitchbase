@@ -60,12 +60,41 @@ function initFilter() {
 function initSiteSearch() {
   var q = document.getElementById("site-q");
   var box = document.getElementById("site-results");
-  var data = window.SEARCH_INDEX || [];
   if (!q || !box) return;
+  var state = window.SEARCH_INDEX ? "ready" : "idle";
+  var pending = null;
+  function showNote(text) {
+    box.innerHTML = "";
+    var p = document.createElement("p"); p.className = "note";
+    p.textContent = text; box.appendChild(p);
+  }
+  function ensureIndex() {
+    if (state === "ready") return Promise.resolve(window.SEARCH_INDEX);
+    if (pending) return pending;
+    var chunks = window.SEARCH_INDEX_CHUNKS || [];
+    if (!chunks.length) { state = "ready"; window.SEARCH_INDEX = []; return Promise.resolve([]); }
+    state = "loading";
+    pending = Promise.all(chunks.map(function (u) {
+      return fetch(u).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+    })).then(function (parts) {
+      var all = [];
+      for (var i = 0; i < parts.length; i++) all = all.concat(parts[i]);
+      window.SEARCH_INDEX = all; state = "ready"; return all;
+    }).catch(function (e) {
+      state = "failed"; pending = null; throw e;
+    });
+    return pending;
+  }
   function render() {
     var needle = q.value.trim().toLowerCase();
     box.innerHTML = "";
     if (!needle) return;
+    if (state !== "ready") {
+      showNote("正在加载搜索索引…");
+      ensureIndex().then(function () { render(); }).catch(function () { showNote("搜索索引加载失败，请刷新页面重试。"); });
+      return;
+    }
+    var data = window.SEARCH_INDEX || [];
     var shown = 0;
     for (var i = 0; i < data.length && shown < 20; i++) {
       var d = data[i];
@@ -85,6 +114,7 @@ function initSiteSearch() {
       box.appendChild(p);
     }
   }
+  q.addEventListener("focus", function () { ensureIndex().catch(function () {}); });
   q.addEventListener("input", render);
 }
 function escHtml(s) {
