@@ -42,7 +42,7 @@ function initFilter() {
     out.textContent = "Showing " + shown + " of " + rows.length + " entries.";
     if (nomatch) {
       if (fromUrl && shown === 0) {
-        nomatch.textContent = "No entries in this directory match that combination （本目录暂无该组合）. Try broadening your filters: clear the region, try a different category, or browse another field — the free preview shows up to 15 entries per field in full.";
+        nomatch.textContent = "No entries in this directory match that combination. Try broadening your filters: clear the region, try a different category, or browse another field — the free preview shows up to 15 entries per field in full.";
         nomatch.hidden = false;
       } else {
         nomatch.hidden = true;
@@ -90,29 +90,47 @@ function initSiteSearch() {
     box.innerHTML = "";
     if (!needle) return;
     if (state !== "ready") {
-      showNote("正在加载搜索索引…");
-      ensureIndex().then(function () { render(); }).catch(function () { showNote("搜索索引加载失败，请刷新页面重试。"); });
+      showNote("Loading search index…");
+      ensureIndex().then(function () { render(); }).catch(function () { showNote("Search index failed to load. Reload the page to retry."); });
       return;
     }
     var data = window.SEARCH_INDEX || [];
-    var shown = 0;
-    for (var i = 0; i < data.length && shown < 20; i++) {
+    var matches = [];
+    for (var i = 0; i < data.length; i++) {
       var d = data[i];
-      var hay = (d.name + " " + d.category + " " + d.region).toLowerCase();
-      if (hay.indexOf(needle) === -1) continue;
-      var a = document.createElement("a");
-      a.href = d.page; a.className = "srow";
-      var b = document.createElement("b"); b.textContent = d.name;
-      var s = document.createElement("span");
-      s.textContent = d.field + " · " + d.category + " · " + d.region;
-      a.appendChild(b); a.appendChild(document.createTextNode(" "));
-      a.appendChild(s); box.appendChild(a); shown++;
+      var hay = (d.name + " " + d.category + " " + (d.disp || "") + " " + d.region).toLowerCase();
+      if (hay.indexOf(needle) !== -1) matches.push(d);
     }
-    if (!shown) {
-      var p = document.createElement("p"); p.className = "note";
-      p.textContent = "没有匹配的结果，换个关键词试试。";
-      box.appendChild(p);
+    var total = matches.length;
+    var head = document.createElement("p"); head.className = "note";
+    box.appendChild(head);
+    if (!total) {
+      head.textContent = "No matches for this keyword. Try a different keyword.";
+      return;
     }
+    var list = document.createElement("div"); box.appendChild(list);
+    var shown = 0;
+    var more = document.createElement("button"); more.type = "button"; more.className = "btn";
+    more.textContent = "Load more";
+    box.appendChild(more);
+    function paint() {
+      var next = Math.min(shown + 20, total);
+      for (var i = shown; i < next; i++) {
+        var d = matches[i];
+        var a = document.createElement("a");
+        a.href = d.page + "?q=" + encodeURIComponent(q.value.trim()); a.className = "srow";
+        var b = document.createElement("b"); b.textContent = d.name;
+        var s = document.createElement("span");
+        s.textContent = d.field + " · " + (d.disp || d.category) + " · " + d.region;
+        a.appendChild(b); a.appendChild(document.createTextNode(" "));
+        a.appendChild(s); list.appendChild(a);
+      }
+      shown = next;
+      head.textContent = "Showing " + shown + " of " + total + " matches.";
+      more.style.display = shown < total ? "" : "none";
+    }
+    more.addEventListener("click", paint);
+    paint();
   }
   q.addEventListener("focus", function () { ensureIndex().catch(function () {}); });
   q.addEventListener("input", render);
