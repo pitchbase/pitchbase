@@ -14,6 +14,7 @@ function initFilter() {
   try {
     var params = new URLSearchParams(window.location.search);
     var pq = params.get("q"), pc = params.get("cat"), pr = params.get("region");
+    var pentry = params.get("entry");
     if (pq) { q.value = pq; fromUrl = true; }
     if (cat && pc) {
       for (var i = 0; i < cat.options.length; i++) {
@@ -33,9 +34,10 @@ function initFilter() {
     var shown = 0;
     for (var i = 0; i < rows.length; i++) {
       var row = rows[i];
-      var hit = (!needle || row.textContent.toLowerCase().indexOf(needle) !== -1)
+      var hit = (((!needle || row.textContent.toLowerCase().indexOf(needle) !== -1)
         && (!c || row.getAttribute("data-cat") === c)
-        && (!r || row.getAttribute("data-region") === r);
+        && (!r || row.getAttribute("data-region") === r))
+        || (fromUrl && pentry && row.cells[0] && row.cells[0].textContent.trim().toLowerCase() === pentry.toLowerCase()));
       row.style.display = hit ? "" : "none";
       if (hit) shown++;
     }
@@ -98,7 +100,7 @@ function initSiteSearch() {
     var matches = [];
     for (var i = 0; i < data.length; i++) {
       var d = data[i];
-      var hay = (d.name + " " + d.category + " " + (d.disp || "") + " " + d.region).toLowerCase();
+      var hay = (d.name + " " + d.category + " " + (d.disp || "") + " " + d.region + " " + (d.focus || "")).toLowerCase();
       if (hay.indexOf(needle) !== -1) matches.push(d);
     }
     var total = matches.length;
@@ -118,7 +120,7 @@ function initSiteSearch() {
       for (var i = shown; i < next; i++) {
         var d = matches[i];
         var a = document.createElement("a");
-        a.href = d.page + "?q=" + encodeURIComponent(q.value.trim()); a.className = "srow";
+        a.href = d.page + "?q=" + encodeURIComponent(q.value.trim()) + "&entry=" + encodeURIComponent(d.name); a.className = "srow";
         var b = document.createElement("b"); b.textContent = d.name;
         var s = document.createElement("span");
         s.textContent = d.field + " · " + (d.disp || d.category) + " · " + d.region;
