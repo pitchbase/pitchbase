@@ -1,5 +1,6 @@
 // PitchBase Fields: keyword filter for the table on each field page.
 // No data lives here; tables are rendered in the HTML at build time.
+// C4: use stable row names for deep links.
 function initFilter() {
   var q = document.getElementById("q");
   var cat = document.getElementById("f-cat");
@@ -15,6 +16,7 @@ function initFilter() {
     var params = new URLSearchParams(window.location.search);
     var pq = params.get("q"), pc = params.get("cat"), pr = params.get("region");
     var pentry = params.get("entry");
+    if (pentry) fromUrl = true;
     if (pq) { q.value = pq; fromUrl = true; }
     if (cat && pc) {
       for (var i = 0; i < cat.options.length; i++) {
@@ -34,14 +36,14 @@ function initFilter() {
     var shown = 0;
     for (var i = 0; i < rows.length; i++) {
       var row = rows[i];
-      var hit = (((!needle || row.textContent.toLowerCase().indexOf(needle) !== -1)
+      var hit = (fromUrl && pentry) ? row.dataset.name.toLowerCase() === pentry.toLowerCase() : (((!needle || row.textContent.toLowerCase().indexOf(needle) !== -1)
         && (!c || row.getAttribute("data-cat") === c)
         && (!r || row.getAttribute("data-region") === r))
-        || (fromUrl && pentry && row.cells[0] && row.cells[0].textContent.trim().toLowerCase() === pentry.toLowerCase()));
+        || false);
       row.style.display = hit ? "" : "none";
       if (hit) shown++;
     }
-    out.textContent = "Showing " + shown + " of " + rows.length + " entries.";
+    if (out) out.textContent = "Showing " + shown + " of " + rows.length + " entries.";
     if (nomatch) {
       if (fromUrl && shown === 0) {
         nomatch.textContent = "No entries in this directory match that combination. Try broadening your filters: clear the region, try a different category, or browse another field — the free preview shows up to 15 entries per field in full.";
@@ -58,9 +60,14 @@ function initFilter() {
     q.value = ""; if (cat) cat.value = ""; if (reg) reg.value = ""; fromUrl = false; run();
   });
   run();
+  if (fromUrl && pentry) {
+    var target = Array.from(rows).find(function(row) { return row.style.display !== "none"; });
+    if (target) { target.style.outline = "3px solid #1565c0"; target.scrollIntoView({block:"center"}); }
+  }
 }
+// C5: tokenize and rank search results.
 function initSiteSearch() {
-  var q = document.getElementById("site-q");
+  var q = document.getElementById("q");
   var box = document.getElementById("site-results");
   if (!q || !box) return;
   var state = window.SEARCH_INDEX ? "ready" : "idle";
@@ -98,11 +105,18 @@ function initSiteSearch() {
     }
     var data = window.SEARCH_INDEX || [];
     var matches = [];
+    var tokens = needle.split(/[^\p{L}\p{N}]+/u).filter(function(t) { return t && !/^(a|the|and|for|in|of|china|chinese|company|companies)$/.test(t); });
+    var synonyms = {drama:["short drama", "短剧", "漫剧"], video:["film", "animation"], led:["lighting"]};
+    function stem(t) { return t.replace(/(ing|es|s)$/, ""); }
     for (var i = 0; i < data.length; i++) {
       var d = data[i];
       var hay = (d.name + " " + d.category + " " + (d.disp || "") + " " + d.region + " " + (d.focus || "")).toLowerCase();
-      if (hay.indexOf(needle) !== -1) matches.push(d);
+      if (tokens.length && tokens.every(function(t) { return [stem(t)].concat(synonyms[t] || []).some(function(v) { return hay.indexOf(v) !== -1; }); })) matches.push(d);
     }
+    matches.sort(function(a,b) {
+      function rank(d) { return tokens.some(function(t) { return (d.name || "").toLowerCase().indexOf(stem(t)) >= 0; }) ? 0 : tokens.some(function(t) { return (d.category || "").toLowerCase().indexOf(stem(t)) >= 0; }) ? 1 : 2; }
+      return rank(a) - rank(b);
+    });
     var total = matches.length;
     var head = document.createElement("p"); head.className = "note";
     box.appendChild(head);
@@ -187,11 +201,11 @@ function initCompare() {
       for (var c = 1; c < row.cells.length; c++) cells.push(cellText(row.cells[c]));
       cols.push(cells);
     }
-    var html = "<p class='note'>Comparison uses free preview details only. No outcome is promised.</p><div class='tablewrap'><table><thead><tr><th></th>";
-    for (var k2 = 0; k2 < cols.length; k2++) html += "<th>" + escHtml(cols[k2][0]) + "</th>";
+    var html = "<p class='note'>Comparison uses free preview details only. No outcome is promised.</p><div class='tablewrap'><table><caption>Selected entries compared</caption><thead><tr><th scope=\"col\"></th>";
+    for (var k2 = 0; k2 < cols.length; k2++) html += "<th scope=\"col\">" + escHtml(cols[k2][0]) + "</th>";
     html += "</tr></thead><tbody>";
     for (var r = 1; r < headers.length; r++) {
-      html += "<tr><th>" + escHtml(headers[r]) + "</th>";
+      html += "<tr><th scope=\"row\">" + escHtml(headers[r]) + "</th>";
       for (var k3 = 0; k3 < cols.length; k3++) html += "<td>" + escHtml(cols[k3][r] || "—") + "</td>";
       html += "</tr>";
     }
