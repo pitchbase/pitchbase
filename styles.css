@@ -1,4 +1,8 @@
 
+/* C8/C9: static hero and mobile directory cards. */
+.hero{background:#10243b}
+@media(max-width:640px){table.pb-list,table.pb-list tbody,table.pb-list tr,table.pb-list td{display:block;width:100%;box-sizing:border-box}table.pb-list thead{display:none}table.pb-list td::before{content:attr(data-label);font-weight:700;display:block}}
+
 /* PitchBase redesign 2026-11-01, revised 2026-11-02 — Linear visual language, one dark theme for ALL pages.
    Replaces the v4 (light base) + v5/v7 (dark home overrides) layering: field, category
    and region pages now share the homepage's dark system instead of staying light.
