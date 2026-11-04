@@ -10,6 +10,8 @@ function initFilter() {
   var table = document.getElementById("field-table");
   var nomatch = document.getElementById("no-match");
   if (!q || !table) return;
+  var filterPanel = document.querySelector ? document.querySelector(".filter-panel") : null;
+  if (filterPanel && window.matchMedia) filterPanel.open = !window.matchMedia("(max-width: 639px)").matches;
   var rows = table.tBodies[0].rows;
   var fromUrl = false;
   try {
@@ -87,7 +89,7 @@ function initSiteSearch() {
       return fetch(u).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
     })).then(function (parts) {
       var all = [];
-      for (var i = 0; i < parts.length; i++) all = all.concat(parts[i]);
+      for (var i = 0; i < parts.length; i++) all = all.concat(parts[i].map(function(d) { return {name:d.n, field:d.f, category:d.c, region:d.r, page:d.p, disp:d.d, focus:d.x}; }));
       window.SEARCH_INDEX = all; state = "ready"; return all;
     }).catch(function (e) {
       state = "failed"; pending = null; throw e;
@@ -150,6 +152,10 @@ function initSiteSearch() {
   }
   q.addEventListener("focus", function () { ensureIndex().catch(function () {}); });
   q.addEventListener("input", render);
+  var searchGo = document.getElementById("site-search-go");
+  if (searchGo) searchGo.addEventListener("click", render);
+  var initial = new URLSearchParams(window.location.search).get("q");
+  if (initial) { q.value = initial; render(); }
 }
 function escHtml(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
