@@ -1,0 +1,274 @@
+[
+  {
+    "id": "N1",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "N3",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "P1",
+    "status": "PASS",
+    "pass": true,
+    "value": [
+      "https://payhip.com/order?link=hkDVc&pricing_plan=rdWQgmRmBj"
+    ],
+    "threshold": "one paid link",
+    "examples": []
+  },
+  {
+    "id": "P2",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "P3",
+    "status": "PASS",
+    "pass": true,
+    "value": [
+      "19"
+    ],
+    "threshold": "one price",
+    "examples": []
+  },
+  {
+    "id": "K1",
+    "status": "PASS",
+    "pass": true,
+    "value": {
+      "page_counts": [],
+      "homepage_count": 31616,
+      "index_count": 31616
+    },
+    "threshold": "equal to index",
+    "examples": []
+  },
+  {
+    "id": "K2",
+    "status": "PASS",
+    "pass": true,
+    "value": [
+      [
+        "2026-11-02",
+        "2026-11-05"
+      ]
+    ],
+    "threshold": "one build and data date; build is today",
+    "examples": []
+  },
+  {
+    "id": "H1",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "H2",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "R2",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "H4",
+    "status": "PASS",
+    "pass": true,
+    "value": 0,
+    "threshold": 0,
+    "examples": []
+  },
+  {
+    "id": "L1",
+    "status": "PASS",
+    "pass": true,
+    "value": {
+      "locked_focus": 0,
+      "bytes": 4288957
+    },
+    "threshold": "0; <5000000 bytes",
+    "examples": []
+  },
+  {
+    "id": "H3",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "A1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "A2",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "F1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "F2",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "S1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "S2",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "R1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "R3",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "M1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D2",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D3",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D5",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D6",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D7",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D8",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "D9",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: requires --base and relevant tools",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "E1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: network/data verification not run",
+    "threshold": "see spec",
+    "examples": []
+  },
+  {
+    "id": "V1",
+    "status": "SKIP",
+    "pass": null,
+    "value": "SKIP: network/data verification not run",
+    "threshold": "see spec",
+    "examples": []
+  }
+]

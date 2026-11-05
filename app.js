@@ -5,6 +5,7 @@ function initFilter() {
   var q = document.getElementById("q");
   var cat = document.getElementById("f-cat");
   var reg = document.getElementById("f-region");
+  var ver = document.getElementById("f-verification");
   var clr = document.getElementById("f-clear");
   var out = document.getElementById("row-count");
   var table = document.getElementById("field-table");
@@ -40,14 +41,15 @@ function initFilter() {
       var row = rows[i];
       var hit = (fromUrl && pentry) ? row.dataset.name.toLowerCase() === pentry.toLowerCase() : (((!needle || row.textContent.toLowerCase().indexOf(needle) !== -1)
         && (!c || row.getAttribute("data-cat") === c)
-        && (!r || row.getAttribute("data-region") === r))
+        && (!r || row.getAttribute("data-region") === r)
+        && (!ver || !ver.value || row.getAttribute("data-region") === "Not verified"))
         || false);
       row.style.display = hit ? "" : "none";
       if (hit) shown++;
     }
     if (out) out.textContent = "Showing " + shown + " of " + rows.length + " entries.";
     if (nomatch) {
-      if (fromUrl && shown === 0) {
+      if (shown === 0) {
         nomatch.textContent = "No entries in this directory match that combination. Try broadening your filters: clear the region, try a different category, or browse another field — the free preview shows up to 15 entries per field in full.";
         nomatch.hidden = false;
       } else {
@@ -58,13 +60,41 @@ function initFilter() {
   q.addEventListener("input", function() { fromUrl = false; run(); });
   if (cat) cat.addEventListener("change", function() { fromUrl = false; run(); });
   if (reg) reg.addEventListener("change", function() { fromUrl = false; run(); });
+  if (ver) ver.addEventListener("change", function() { fromUrl = false; run(); });
   if (clr) clr.addEventListener("click", function() {
-    q.value = ""; if (cat) cat.value = ""; if (reg) reg.value = ""; fromUrl = false; run();
+    q.value = ""; if (cat) cat.value = ""; if (reg) reg.value = ""; if (ver) ver.value = ""; fromUrl = false; run();
   });
+  document.querySelectorAll('.filter-chip').forEach(function(button) { button.addEventListener('click', function() { var select = document.getElementById(button.dataset.target); select.value = select.value === button.dataset.value ? '' : button.dataset.value; select.dispatchEvent(new Event('change')); }); });
+  var sort = document.getElementById('f-sort');
+  if (sort) { var original = Array.from(rows); sort.addEventListener('change', function() { var ordered = original.slice(); if (sort.value === 'name') ordered.sort(function(a,b) { return a.dataset.name.localeCompare(b.dataset.name); }); ordered.forEach(function(row) { table.tBodies[0].appendChild(row); }); }); }
   run();
   if (fromUrl && pentry) {
     var target = Array.from(rows).find(function(row) { return row.style.display !== "none"; });
-    if (target) { target.style.outline = "3px solid #1565c0"; target.scrollIntoView({block:"center"}); }
+    if (target) {
+      document.body.classList.add("entry-detail");
+      var title = document.querySelector(".phead h1");
+      if (title) title.textContent = target.dataset.name;
+      var snapshot = document.querySelector(".phead .meta");
+      if (snapshot && target.dataset.snapshot) {
+        var d = target.dataset.snapshot.split("-");
+        snapshot.textContent = "Data snapshot " + new Date(Date.UTC(+d[0], +d[1] - 1, +d[2])).toLocaleDateString("en-GB", {day:"numeric", month:"short", year:"numeric", timeZone:"UTC"});
+      }
+      var heading = document.createElement("h2");
+      heading.textContent = target.classList.contains("locked") ? "Full details for members" : "Supplier details";
+      table.parentNode.insertBefore(heading, table);
+      var score = target.querySelector('[data-label="PitchBase score"] b');
+      var value = score && /^\d+/.exec(score.textContent);
+      if (value) {
+        var dial = document.createElement("td");
+        dial.className = "detail-dial";
+        dial.setAttribute("aria-label", "PitchBase score " + value[0] + " out of 100");
+        dial.style.setProperty("--score", value[0]);
+        var label = document.createElement("b");
+        label.textContent = value[0];
+        dial.appendChild(label);
+        target.appendChild(dial);
+      }
+    }
   }
 }
 // C5: tokenize and rank search results.
@@ -185,6 +215,8 @@ function initCompare() {
   }
   function refreshStatus() {
     var n = selected().length;
+    var bar = document.querySelector(".cmpbar");
+    if (bar) bar.hidden = n === 0;
     status.textContent = n === 0 ? "Select 2–4 full entries to compare."
       : "Selected " + n + " of 4. " + (n < 2 ? "Select at least 2 to compare." : "");
   }
@@ -204,7 +236,7 @@ function initCompare() {
     for (var k = 0; k < s.length; k++) {
       var row = s[k].closest("tr");
       var cells = [];
-      for (var c = 1; c < row.cells.length; c++) cells.push(cellText(row.cells[c]));
+      for (var c = 0; c < headers.length; c++) { var found = Array.from(row.cells).find(function(cell) { return cell.dataset.label === headers[c]; }); cells.push(found ? cellText(found) : "—"); }
       cols.push(cells);
     }
     var html = "<p class='note'>Comparison uses free preview details only. No outcome is promised.</p><div class='tablewrap'><table><caption>Selected entries compared</caption><thead><tr><th scope=\"col\"></th>";
