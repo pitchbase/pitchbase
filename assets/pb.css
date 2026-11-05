@@ -599,3 +599,13 @@ span.chk{background:#17372e;color:#b2f5d4}.preview-banner{display:flex;align-ite
 @media(max-width:760px){#field-table .supplier-card td[data-role=compare]{position:static;grid-column:1/-1;order:-1;text-align:right}#field-table tr.supplier-card{padding:20px;gap:14px}#field-table .supplier-card td[data-role=name]{padding-right:0}}
 
 #field-table .supplier-card .signal{display:inline-flex;align-items:center;border:1px solid var(--bd2);border-radius:999px;padding:4px 10px;font-size:13px;color:var(--t2);background:transparent}#field-table .supplier-card .signal.n{border-color:#2c4a3f;color:#b2f5d4}#field-table .supplier-card td[data-role=source]{margin-top:2px}
+/* Directory polish: compact evidence and readable supplier facts. */
+@media(min-width:1101px){.filter-panel{position:sticky;top:80px;max-height:calc(100vh - 96px);overflow:auto}}
+.filters{row-gap:14px}.filters label:not(:first-child){margin-top:10px}
+.preview-banner{padding:8px 0;background:none;border:0;border-top:1px solid var(--bd2);border-bottom:1px solid var(--bd2);border-radius:0;font-size:14px}.preview-banner .btn{min-height:0;padding:3px 0;border:0;background:none;color:var(--ac)}
+#field-table tr.supplier-card{grid-template-columns:repeat(3,minmax(0,1fr))}#field-table .supplier-card td[data-role=region]{grid-column:1/-1}#field-table .supplier-card td[data-role=type]{grid-column:1/-1}#field-table .supplier-card td[data-role=stat]{overflow-wrap:normal;word-break:normal;font-variant-numeric:tabular-nums}
+#field-table td[data-role=name] a,#field-table td[data-role=source] a{color:var(--t1);font-weight:600}#field-table td[data-role=name] a:hover,#field-table td[data-role=source] a:hover{color:var(--ac)}
+.verification{position:relative}.verification summary{cursor:pointer;list-style:none}.verification summary::-webkit-details-marker{display:none}.verification-dots{display:inline-flex;gap:4px;margin-left:6px}.verification-dots i{width:6px;height:6px;border-radius:50%;background:var(--t3)}.verification-dots i.on{background:var(--ac)}.verification p{margin:8px 0 0;color:var(--t2);font-size:14px}.verification:not([open]):hover p,.verification:not([open]):focus-within p{display:block}
+@media(max-width:760px){#field-table tr.supplier-card{grid-template-columns:repeat(2,minmax(0,1fr))}.preview-banner{flex-direction:row;align-items:center;flex-wrap:wrap;gap:4px 16px}}
+
+#field-table .supplier-card td.wide-stat{grid-column:1/-1}
