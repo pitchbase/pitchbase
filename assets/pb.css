@@ -609,3 +609,27 @@ span.chk{background:#17372e;color:#b2f5d4}.preview-banner{display:flex;align-ite
 @media(max-width:760px){#field-table tr.supplier-card{grid-template-columns:repeat(2,minmax(0,1fr))}.preview-banner{flex-direction:row;align-items:center;flex-wrap:wrap;gap:4px 16px}}
 
 #field-table .supplier-card td.wide-stat{grid-column:1/-1}
+
+/* Overnight visual: clearer search, roomier directory cards, stronger membership CTA. */
+.hero.calm{padding-top:72px}
+.hero.calm h1{max-width:15ch;font-size:clamp(58px,6vw,80px)}
+.hero.calm .lede{max-width:48ch;margin-top:20px}
+.hero.calm .sbox{margin-top:40px;max-width:760px}
+.hero.calm .sfield{height:72px;border-color:#62758e;background:#171e28;box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.hero.calm .sfield .btn{height:52px;padding:0 26px}
+.hero.calm .pwin{margin-top:56px}
+.pwin .tbl td{padding-top:22px;padding-bottom:22px}
+.pwin .tbl th:last-child,.pwin .tbl td:last-child{white-space:nowrap}
+.fgrid{gap:16px;background:none;border:0;overflow:visible}
+.ftile{border:1px solid var(--bd2);border-radius:var(--r-lg);padding:28px;min-height:220px}
+#field-table tr.supplier-card{margin-bottom:20px;padding:32px;gap:20px 24px;border-color:var(--bd2)}
+#field-table .supplier-card td[data-role=stat]{padding:16px;min-height:88px}
+.pricing .membership-card{padding:48px;border-color:#6989b9;background:linear-gradient(160deg,#202f46,#121923 70%)}
+.pricing .membership-card ul{margin:28px 0;gap:14px}
+.pricing .membership-card>p:not(.p){line-height:1.65;margin-top:16px}
+.pricing .membership-card .cta{margin:28px 0 8px}
+.pricing .membership-card .cta .btn{width:100%;height:60px;font-size:19px;box-shadow:0 0 0 2px rgba(207,224,255,.35),0 12px 32px rgba(96,140,230,.3)}
+@media(max-width:760px){
+.hero.calm{padding-top:36px}.hero.calm h1{font-size:46px}.hero.calm .sbox{margin-top:28px}.hero.calm .sfield{height:64px}.hero.calm .sfield .btn{height:46px;padding:0 14px}.hero.calm .pwin{margin-top:36px}
+.fgrid{gap:10px}.ftile{padding:20px;min-height:0}#field-table tr.supplier-card{padding:20px;gap:16px;margin-bottom:16px}.pricing .membership-card{padding:28px}
+}
