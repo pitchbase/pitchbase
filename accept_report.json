@@ -49,8 +49,8 @@
     "pass": true,
     "value": {
       "page_counts": [],
-      "homepage_count": 32691,
-      "index_count": 32691
+      "homepage_count": 32701,
+      "index_count": 32701
     },
     "threshold": "equal to index",
     "examples": []
@@ -62,7 +62,7 @@
     "value": [
       [
         "2026-11-02",
-        "2026-11-10"
+        "2026-11-11"
       ]
     ],
     "threshold": "one build and data date; build is today",
@@ -106,7 +106,7 @@
     "pass": true,
     "value": {
       "locked_focus": 0,
-      "bytes": 4411866
+      "bytes": 4413309
     },
     "threshold": "0; <5000000 bytes",
     "examples": []
