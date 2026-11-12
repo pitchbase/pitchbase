@@ -49,8 +49,8 @@
     "pass": true,
     "value": {
       "page_counts": [],
-      "homepage_count": 34256,
-      "index_count": 34256
+      "homepage_count": 34398,
+      "index_count": 34398
     },
     "threshold": "equal to index",
     "examples": []
@@ -106,7 +106,7 @@
     "pass": true,
     "value": {
       "locked_focus": 0,
-      "bytes": 4680358
+      "bytes": 4706182
     },
     "threshold": "0; <5000000 bytes",
     "examples": []
