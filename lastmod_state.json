@@ -21,15 +21,15 @@
   },
   "ai-animation.html": {
     "date": "2026-11-13",
-    "hash": "5101acd346611112fce819e1faec896e5598311d"
+    "hash": "ec247c34ace60655188856d7c4d3b4274a1e0321"
   },
   "ai-production.html": {
     "date": "2026-11-13",
-    "hash": "ce8c16c616148cad9860b65517f6afb4cf273cd8"
+    "hash": "e2a81acf41749feb9150cb01772ad8ea82827790"
   },
   "ai.html": {
     "date": "2026-11-13",
-    "hash": "ea2d23694030e93058412d7c35a9b71b6a89a13f"
+    "hash": "19d30d915c3bc0eea09a4737f3a0ac3d261639db"
   },
   "apparel.html": {
     "date": "2026-11-13",
@@ -41,7 +41,7 @@
   },
   "auto-parts.html": {
     "date": "2026-11-13",
-    "hash": "f15b0fc4062594e3d85f284e6e0ec826a021776d"
+    "hash": "f3792a29879a466501e95798b8cbc391676d3932"
   },
   "badge.html": {
     "date": "2026-11-13",
@@ -101,55 +101,63 @@
   },
   "cat-ai-ai-applications.html": {
     "date": "2026-11-13",
-    "hash": "4c009f72565e4d061bad642c3bf5e8f7b79c97a4"
+    "hash": "0cf12c99edb9b58c2f36af0fa7d1b69015cf7221"
   },
   "cat-ai-ai-chips.html": {
     "date": "2026-11-13",
-    "hash": "eb1f60b819201ebbc5b88f15d4b0041b7614a238"
+    "hash": "59679546530248b4216b97779f6c0083fd29980e"
   },
   "cat-ai-animation-ai-comic-drama-production.html": {
     "date": "2026-11-13",
-    "hash": "202a335af9b958219530bc500ca21d268efc375c"
+    "hash": "3f83e6fea80e821ce6d485fa658af0bc201ce311"
   },
   "cat-ai-animation-brand-commercial-ai-animation.html": {
     "date": "2026-11-13",
-    "hash": "010f9ac1eb5788e49119f3ea0ceb279bfd83629d"
+    "hash": "05e20c3262cf1e4c357c4c8c15226095c3d79508"
   },
   "cat-ai-animation-brand-commercial-game-ai-animation.html": {
     "date": "2026-11-13",
-    "hash": "13d3642cc3c1f09f4f2bd6e5cb76107b8d79fbd5"
+    "hash": "c3c74b80ff967ae0cf0d601996b5e734cf002e01"
   },
   "cat-ai-animation-comic-drama-studios-sdm.html": {
     "date": "2026-11-13",
-    "hash": "ce1b4ff6abe8eca67ecb4181c37a8fef349ba2df"
+    "hash": "74e220829d29d875053dfb489f149357fa6f1e74"
+  },
+  "cat-ai-animation-not-verified.html": {
+    "date": "2026-11-13",
+    "hash": "eca9811a1cf77adb1c1d8e6fd1465f049225e628"
   },
   "cat-ai-autonomous-driving.html": {
     "date": "2026-11-13",
-    "hash": "8a10ca0c1b1286a27deaa6397f15a9d6bfbae679"
+    "hash": "aae81e2045e328c3a32331a37e80a41ac6c1bb7c"
   },
   "cat-ai-llm-model.html": {
     "date": "2026-11-13",
-    "hash": "66e0166be9f95083efa7ee01e91064b50924b074"
+    "hash": "92472a293bce9628911c8a93e6ce6ea1d3cf062b"
   },
   "cat-ai-production-ai-short-drama.html": {
     "date": "2026-11-13",
-    "hash": "638aa29f4e83cb60140f6e29672bd3ffcf09ce8a"
+    "hash": "a3a98eebd41b802a279b5aec066b53f777b619d1"
   },
   "cat-ai-production-digital-human-customization.html": {
     "date": "2026-11-13",
-    "hash": "6bd4e71841f5f918eb03ac963b67923548634c96"
+    "hash": "808cab1108f64d750cee98e7e483812a04d7336b"
+  },
+  "cat-ai-production-not-verified.html": {
+    "date": "2026-11-13",
+    "hash": "ec5c841c7ea7611f004706eff963b42683775f49"
   },
   "cat-ai-production-other-production.html": {
     "date": "2026-11-13",
-    "hash": "3b4f19ed196e0614563b22115fcb94872a33c5ea"
+    "hash": "f5c6701dc6e9969acde9b3d6814d34b641b6b5e8"
   },
   "cat-ai-production-product-brand-video.html": {
     "date": "2026-11-13",
-    "hash": "01581e6fbf9ebfa09d14b84ab98e3b8e18b84e3e"
+    "hash": "ec506ba69b0a3deffcf1ece487c893a620567edd"
   },
   "cat-ai-robotics.html": {
     "date": "2026-11-13",
-    "hash": "6edf7c80f928b2a2979fbffdba02e76d2c45ed8b"
+    "hash": "3087a283fb03af099231cbb866cfdfecd8be3f9d"
   },
   "cat-apparel-apparel-oem.html": {
     "date": "2026-11-13",
@@ -169,31 +177,31 @@
   },
   "cat-auto-parts-aftermarket-parts.html": {
     "date": "2026-11-13",
-    "hash": "f07af0a8d447eb9bc77b1c4cf50e4f93e564f208"
+    "hash": "2543eb007453ce632a294b028e2e9cd6567a5507"
   },
   "cat-auto-parts-automotive-parts.html": {
     "date": "2026-11-13",
-    "hash": "4cb8de16ae866e441139639b76895603f56a8529"
+    "hash": "551c765bc252244d386927b5fd9da507406e824d"
   },
   "cat-auto-parts-brake-pads.html": {
     "date": "2026-11-13",
-    "hash": "6027ccfe42400d1f95950b87f09da5c7dfa38d51"
+    "hash": "109aae3c296149727b9ce04aeb0de966e2869279"
   },
   "cat-auto-parts-clutches.html": {
     "date": "2026-11-13",
-    "hash": "e9266c67d754d45c4222745a99ddaa5a380af6c7"
+    "hash": "08e0b29c2568f1c6a9bf8fab52af66793ddd7bbd"
   },
   "cat-auto-parts-filters.html": {
     "date": "2026-11-13",
-    "hash": "0c49b72fd9631a3844eaf9682fb8acef6a81ea3a"
+    "hash": "8cace9d382907d3173de1cd77a660062f38a7949"
   },
   "cat-auto-parts-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "2a433beeea9dc5a07d1f7c7de14585f3746565cd"
+    "hash": "68480d837a990df06bb0a76a19c8fe2fc1db51e8"
   },
   "cat-auto-parts-shock-absorbers.html": {
     "date": "2026-11-13",
-    "hash": "645a7d6d078112e122ee4c6810f917ee7f1a46d2"
+    "hash": "e554c7947fb36f55d65380343ddedc65477cdb1d"
   },
   "cat-beauty-skincare-oem.html": {
     "date": "2026-11-13",
@@ -449,23 +457,23 @@
   },
   "cat-electronic-components-electronic-components.html": {
     "date": "2026-11-13",
-    "hash": "ea09cb57066bb447959c1feacf46741d68e99177"
+    "hash": "85769d3d6c914473d3c967652ece3cf8af410e03"
   },
   "cat-electronic-components-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "d0415d0dc01f186b0273efb16452f752aec11003"
+    "hash": "a0afcbd10348ede528c2a6ac6fb2c59179e3b594"
   },
   "cat-electronic-components-other-2.html": {
     "date": "2026-11-13",
-    "hash": "301649a52a12fe3cf1b1a369079b0d2ed88e064d"
+    "hash": "7327b7b9427cb7f9286c0fe898a359cc68c7717c"
   },
   "cat-electronic-components-other.html": {
     "date": "2026-11-13",
-    "hash": "d2e4261bb11b50e5079c063c5484ad662a847570"
+    "hash": "7efb49483270a256cfdcb6d9f6192843c6b442ee"
   },
   "cat-electronic-components-pcb-pcba.html": {
     "date": "2026-11-13",
-    "hash": "dab29ba6d8ae1c1034b601da455bff0ef469ea87"
+    "hash": "b78c6ea1dbd835d54a3d042b8f4b0a5d2d3fcd23"
   },
   "cat-electronics-accessories-chargers-oem.html": {
     "date": "2026-11-13",
@@ -545,15 +553,15 @@
   },
   "cat-fasteners-valves-fasteners.html": {
     "date": "2026-11-13",
-    "hash": "8e1ddaa471fcc16dcfcd19307bdd427ba17f5b7a"
+    "hash": "449df7322ea4c3ac3a4aae7941807dbb80ae346a"
   },
   "cat-fasteners-valves-pipe-fittings.html": {
     "date": "2026-11-13",
-    "hash": "36621cc44fa09776645ccda9866cd565477c9466"
+    "hash": "21e08831ea8a93e0ac720119434232e768369e63"
   },
   "cat-fasteners-valves-valves.html": {
     "date": "2026-11-13",
-    "hash": "3848fa576c2f375fbd6bfdcbbbaa6058f46254d4"
+    "hash": "4dd71ca1fbfb70bc282d65cd5b572186b4901c2b"
   },
   "cat-fiber-optic-cables-fiber-optic-cables.html": {
     "date": "2026-11-13",
@@ -589,27 +597,27 @@
   },
   "cat-food-beverage-beverage-oem.html": {
     "date": "2026-11-13",
-    "hash": "d71d030fcd809442af07cd36cf660a7134a478cd"
+    "hash": "e6663b2b385986d8de173e4e8a69d79a40140c7e"
   },
   "cat-food-beverage-canned-food-oem.html": {
     "date": "2026-11-13",
-    "hash": "59019569ab328c70202f801cb4eaf817f3c855e4"
+    "hash": "52ab59abc56f01c74171ca5d1a5df699b1f490da"
   },
   "cat-food-beverage-food-and-beverages.html": {
     "date": "2026-11-13",
-    "hash": "0cebb5a80aad87dd45f06196e61cb20ee2973fb1"
+    "hash": "ef3b48c6eca0a5b512fb8186abeb5558ad487032"
   },
   "cat-food-beverage-food-oem.html": {
     "date": "2026-11-13",
-    "hash": "fa8ae29f84410afd35e46f4d865c8a110d2f0147"
+    "hash": "1adfaefeacae28ef934ee259276ac226f7126505"
   },
   "cat-food-beverage-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "889ae72d371fbc895045851e7250d0b1b299041e"
+    "hash": "fedc2ca1a07ed9a612ad7044c2232f383e054425"
   },
   "cat-food-beverage-snack-food-oem.html": {
     "date": "2026-11-13",
-    "hash": "522ebee42d314719919db687f224ef7e141a0bde"
+    "hash": "03d71c443c8c243bbc4e9dc31fe8e1b63de45321"
   },
   "cat-food-machinery-other-2.html": {
     "date": "2026-11-13",
@@ -661,23 +669,23 @@
   },
   "cat-furniture-oem-furniture.html": {
     "date": "2026-11-13",
-    "hash": "d0b7b9ca07a1dd2e04f3bb29a452e6127a3d29ca"
+    "hash": "2efa7660a387119bbb4590b33de1d08518a726cc"
   },
   "cat-furniture-oem-mattress-sleep-furniture.html": {
     "date": "2026-11-13",
-    "hash": "81c9c652c9803ead7142e37bc65febf3181e7942"
+    "hash": "a2d88ff82a4330fb9225b22ab7e1f1c9ca0a10ad"
   },
   "cat-furniture-oem-office-furniture.html": {
     "date": "2026-11-13",
-    "hash": "bf2d68e7bf46044676a80e940f5f0dc0b903479e"
+    "hash": "7c716f4861397245195eeb8dcca992be8bed41c0"
   },
   "cat-furniture-oem-outdoor-furniture.html": {
     "date": "2026-11-13",
-    "hash": "e3f2c19291f0f38b6585fd40c8bc79ca21cac71f"
+    "hash": "ffeeadece18a98d862fc7eea28ba56374b29d0e4"
   },
   "cat-furniture-oem-residential-furniture.html": {
     "date": "2026-11-13",
-    "hash": "30b643176e1b8f86d9ab8bdb6fa36aac0afee606"
+    "hash": "1d427ac83bbe96c4c0fc60eef1c0813145f29ee1"
   },
   "cat-hardware-tools-cutting-tools-abrasives.html": {
     "date": "2026-11-13",
@@ -977,99 +985,99 @@
   },
   "cat-lighting-decorative-lighting.html": {
     "date": "2026-11-13",
-    "hash": "c6a83fcafd61123fa39bdec1f63b205f6163a5ca"
+    "hash": "4126aa35ebc9b70f8d409256dc0ae17d396cad1e"
   },
   "cat-lighting-home-lighting.html": {
     "date": "2026-11-13",
-    "hash": "ecd1f7845bf2cb808463a1e4f918d59634c00ec5"
+    "hash": "3f2858d59ec3b2ad7f34fabb3883563d2c619bac"
   },
   "cat-lighting-led-lighting.html": {
     "date": "2026-11-13",
-    "hash": "c9178555756f8a56bdcdda5684c86a058252bf24"
+    "hash": "d4b48a045d2cbf0ff7ce50f0d6ffde5617b4821c"
   },
   "cat-lighting-led-strip-lighting.html": {
     "date": "2026-11-13",
-    "hash": "7bfac2a1d4288540cfb279570132df86207ef18f"
+    "hash": "fbb0b5fb6371720103dda8ef87759a3a7b009ec8"
   },
   "cat-lighting-outdoor-lighting.html": {
     "date": "2026-11-13",
-    "hash": "673bab0b5cf1aa1e3b2bc1352d8716b43aa47a7f"
+    "hash": "9a52f45ac5974012fcb5b746ae2be6a4ff348560"
   },
   "cat-lighting-solar-street-lights.html": {
     "date": "2026-11-13",
-    "hash": "c9741e02729abf40b8935ea71c487376ee38ca8e"
+    "hash": "1c1ba51bf707fb02cdc60caf05173b15207d2758"
   },
   "cat-logistics-3pl.html": {
     "date": "2026-11-13",
-    "hash": "96e0006b6b4a58d2d6895832da4042ad8ebb7a9b"
+    "hash": "8e5ff9e53badf68cb2f814f85edc1e421d0be6fa"
   },
   "cat-logistics-cold-chain-logistics.html": {
     "date": "2026-11-13",
-    "hash": "6579250ff00b58f6901648d3dd1645fc1b7108a1"
+    "hash": "2a188d6dafeff83edce553dd049293ee6825a774"
   },
   "cat-logistics-cross-border-e-commerce-logistics.html": {
     "date": "2026-11-13",
-    "hash": "3d8cddedd1e4ffba7c2efbb2232ae423a53480be"
+    "hash": "9d7cb2abffc924a79113602c03695dea8d29d618"
   },
   "cat-logistics-fba-ddp.html": {
     "date": "2026-11-13",
-    "hash": "bae03c5f47918f4b161ea42a7f6b268270a0b018"
+    "hash": "af2146f59c43743724cfb53ae0883a31ee0f229e"
   },
   "cat-logistics-freight-forwarding.html": {
     "date": "2026-11-13",
-    "hash": "3dff61caa680e6409ae566f3b9249302ca5fbf45"
+    "hash": "6cce45ec34341ff5e4b747e5dc47f80d5ea818b9"
   },
   "cat-logistics-lcl.html": {
     "date": "2026-11-13",
-    "hash": "f1370a0ad46fa5b6ceb4974cb21f8e0ea60c304e"
+    "hash": "8ce9e7623512590dc7db20d934e20261e59e98f1"
   },
   "cat-logistics-other-2.html": {
     "date": "2026-11-13",
-    "hash": "8425109b75894adff00dc9cc8dfbd76ae8906bf1"
+    "hash": "b10f1539aaae0d413888efeaba920f4568d93687"
   },
   "cat-logistics-other-3.html": {
     "date": "2026-11-13",
-    "hash": "effeacea177efe8e9da3be3520cfde9ca40f16c0"
+    "hash": "b302254bc02f872cf62cbb3786e4fafd56695d81"
   },
   "cat-logistics-other-4.html": {
     "date": "2026-11-13",
-    "hash": "17c893df8d81a7682ea14e41facff204997d09cf"
+    "hash": "7ae8b16b055017dd54fd915c20a2a764d9bd5a3d"
   },
   "cat-logistics-other-5.html": {
     "date": "2026-11-13",
-    "hash": "27c870d9cfc42856b9ccee7cc3b27b540bd8f5cd"
+    "hash": "579cf7488ad282e5d243c28e419bfc8e7afd044a"
   },
   "cat-logistics-other-6.html": {
     "date": "2026-11-13",
-    "hash": "1a1266e4d0351f0505f9c33931cfbbae624e186c"
+    "hash": "4d9ba7b5dc4fbf55845361070d56f0a06dce88a9"
   },
   "cat-logistics-other-7.html": {
     "date": "2026-11-13",
-    "hash": "b833ec253fbac7200467fd7957fc1c634b71b272"
+    "hash": "7acf2f6053bb62a124067e3aa538f890e82a085e"
   },
   "cat-logistics-other-8.html": {
     "date": "2026-11-13",
-    "hash": "b8fdd2afad0a2e6fdcbcc12317f45ab0b0ab31b3"
+    "hash": "75a6677102aa38ae8be3abcb80054a63b51dbeaa"
   },
   "cat-logistics-other.html": {
     "date": "2026-11-13",
-    "hash": "eac18f3f6ec5860e9d57b1bab12d805a2903064a"
+    "hash": "b2a416d8a6c940cf7d998f65a221572cb3a8ca37"
   },
   "cat-logistics-rail-freight-forwarding.html": {
     "date": "2026-11-13",
-    "hash": "519ba78306b0a584c88d986f4e9ec1836ee56d0f"
+    "hash": "e4a2e803aa6390f229eac509ff256bcc0660ba87"
   },
   "cat-logistics-supply-chain-services.html": {
     "date": "2026-11-13",
-    "hash": "c540dc31c425b8d3147bd8781b551792da87f202"
+    "hash": "6e9e5e4fdd9eef5e7f83b159786c98571687f50b"
   },
   "cat-logistics-transport.html": {
     "date": "2026-11-13",
-    "hash": "1c35fd145b6fdfddf46e0e9205fbee9740f92943"
+    "hash": "fdac29b1bf45ce8542f6ae75ec7246a0730251a3"
   },
   "cat-logistics-warehousing-distribution.html": {
     "date": "2026-11-13",
-    "hash": "65428b0ccf80b20bfe09da89e9a49cca3e6a524f"
+    "hash": "3d79d741b5631b5ed97e7dac6d5cf1f53f993252"
   },
   "cat-luggage-backpacks.html": {
     "date": "2026-11-13",
@@ -1129,27 +1137,27 @@
   },
   "cat-new-energy-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "46dbb578f2e3b768a0c04a085ed72eda56ca369b"
+    "hash": "9b86874d40e97271243657e40f5a1489e3caacdd"
   },
   "cat-new-energy-other-2.html": {
     "date": "2026-11-13",
-    "hash": "1614b2f0fad80cfc43ba0f3aec1c1797d3fe33f8"
+    "hash": "46cd2b0db416fbb0c97636298e0391fbbfb30a9f"
   },
   "cat-new-energy-other-3.html": {
     "date": "2026-11-13",
-    "hash": "ba9ef7d90ad354f3d5d84258d89e7c07897bd7b2"
+    "hash": "2652861547ee3e0b2304bc01a0ce74cc265512f6"
   },
   "cat-new-energy-other-4.html": {
     "date": "2026-11-13",
-    "hash": "a8fb09c5d71c0aa0d64914f7bb513f29bb0e30da"
+    "hash": "e8cec6f59bdf6050d715e52693ede52abb6826ab"
   },
   "cat-new-energy-other-5.html": {
     "date": "2026-11-13",
-    "hash": "53648561ff1f3a3e9f08d7f80195d706034d5787"
+    "hash": "98ee4692c525b0683402e9ff735a3a16b725a9c1"
   },
   "cat-new-energy-other.html": {
     "date": "2026-11-13",
-    "hash": "5bea3d35bcc85aaf58e70e7bb5059c53c0bbd870"
+    "hash": "758fe705d44ebcc396eddd3875527e91d794c902"
   },
   "cat-optical-instruments-optical-instruments.html": {
     "date": "2026-11-13",
@@ -1157,7 +1165,7 @@
   },
   "cat-packaging-folding-cartons.html": {
     "date": "2026-11-13",
-    "hash": "eee798e3a8a68cac9f09a7b24d49a194b0f0dce2"
+    "hash": "c476d7769f9a757f7c6188d5582dc0552a11403f"
   },
   "cat-packaging-machinery-packaging-machinery.html": {
     "date": "2026-11-13",
@@ -1165,7 +1173,7 @@
   },
   "cat-packaging-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "3e9450a7d1dba257a907616df3d9dfb6230e14f8"
+    "hash": "84a649c714520fddc5eba45603e89a7aebf88942"
   },
   "cat-partners-agricultural-machinery-services.html": {
     "date": "2026-11-13",
@@ -1385,23 +1393,23 @@
   },
   "cat-textiles-dyeing-printing.html": {
     "date": "2026-11-13",
-    "hash": "cd0d776ecb2ff3408620c43c87db12c78c918f44"
+    "hash": "f0edc83e023d048a7065fc3f5a64fef1185537c9"
   },
   "cat-textiles-fabric.html": {
     "date": "2026-11-13",
-    "hash": "09aca159c6f185912f116e98797a666f469008c7"
+    "hash": "8bdf6cd30c19251f6c1f60e038a9df42e3d65351"
   },
   "cat-textiles-garment-accessories.html": {
     "date": "2026-11-13",
-    "hash": "94407a5db7775ce18010df84cccf0e7646500ebd"
+    "hash": "5dfd2e9bc56da35c7f1f5ffadb50ec807f1d27df"
   },
   "cat-textiles-not-verified.html": {
     "date": "2026-11-13",
-    "hash": "7d46f2d7c729ac4e520ad9280a3ee90f1aa7bbce"
+    "hash": "eb6deb3ad03a63228fd483ef117578cb0d9bd969"
   },
   "cat-textiles-yarn.html": {
     "date": "2026-11-13",
-    "hash": "3fb570c722856b2fbedeb977887b098cb18dec8f"
+    "hash": "da69e8a2383199049dfaa0e6ca12edaa8d3d19df"
   },
   "cat-toys-plush-toys.html": {
     "date": "2026-11-13",
@@ -1565,7 +1573,7 @@
   },
   "cities-a-z.html": {
     "date": "2026-11-13",
-    "hash": "00e1a1e4a8783c41152cf914c9c5fabb4ccccec1"
+    "hash": "5dc3bc2767f03a0350583088c01c21abc3ec066b"
   },
   "claim.html": {
     "date": "2026-11-13",
@@ -1617,7 +1625,7 @@
   },
   "electronic-components.html": {
     "date": "2026-11-13",
-    "hash": "2d4d21611ca2d016e03102bd15db70a212a95dfb"
+    "hash": "83dc5581a715be724ca1250992898c3793ad5f48"
   },
   "electronics-accessories.html": {
     "date": "2026-11-13",
@@ -1645,7 +1653,7 @@
   },
   "fasteners-valves.html": {
     "date": "2026-11-13",
-    "hash": "a5b82cec3b817eaf2e7336ceb0a2d7ae4f1a4168"
+    "hash": "32594bbe6f32b9fa987db1580813dbd17efd57a9"
   },
   "fiber-optic-cables.html": {
     "date": "2026-11-13",
@@ -1661,7 +1669,7 @@
   },
   "food-beverage.html": {
     "date": "2026-11-13",
-    "hash": "a32e7f52aae9927aff03ef9e502c7a225fe5e99c"
+    "hash": "b4610f116ced7699dcc05c60053515f7ce6418a2"
   },
   "food-machinery.html": {
     "date": "2026-11-13",
@@ -1677,7 +1685,7 @@
   },
   "furniture-oem.html": {
     "date": "2026-11-13",
-    "hash": "3150b41e982d7696662751ae6f7fc7f6a1ff3c89"
+    "hash": "c60e31eb1b7003a32b9b93f6e6124ff50be7861f"
   },
   "gaming-peripherals.html": {
     "date": "2026-11-13",
@@ -1685,19 +1693,19 @@
   },
   "group-ai.html": {
     "date": "2026-11-13",
-    "hash": "23c1b04bb5ad56821c53812b2c1a6c7ccda5c017"
+    "hash": "eb2df9d0ccee2cda3f2a73a2ed8b9c014e6c710c"
   },
   "group-animation.html": {
     "date": "2026-11-13",
-    "hash": "069b44410871ea2096d391f3c2238da81bd70de8"
+    "hash": "d8c6259afb437662c74e494572ab49371aa8c3fd"
   },
   "group-apparel-textiles-bags.html": {
     "date": "2026-11-13",
-    "hash": "6b4c614d4879d3ab7dad7507ad1841f8edb5bb15"
+    "hash": "742777161f0ea83351b9bf0fcc13d5708e647d07"
   },
   "group-auto-mobility.html": {
     "date": "2026-11-13",
-    "hash": "b6a0b255a380cdfba7e6d77cf044394dee7d0610"
+    "hash": "bf370dbad1133fc963db41a2d9d8d1ef3e89ece8"
   },
   "group-beauty-personal-care.html": {
     "date": "2026-11-13",
@@ -1713,7 +1721,7 @@
   },
   "group-electronic-components.html": {
     "date": "2026-11-13",
-    "hash": "1c3bb7aac86d86453eb601f145b5b6e99af43081"
+    "hash": "97d2b3d0c6ebf56d4e02127ee545c2511f6397db"
   },
   "group-finance-investment.html": {
     "date": "2026-11-13",
@@ -1721,11 +1729,11 @@
   },
   "group-food-catering.html": {
     "date": "2026-11-13",
-    "hash": "1e5bc25f76805f0dcd330f42cb123691e4714d7b"
+    "hash": "a8f0b1f223566b77f1c44138bd5fcd18055bbc0f"
   },
   "group-home-living.html": {
     "date": "2026-11-13",
-    "hash": "55e1f1e6191ff0b2ece1757c00778f8489dfbd9d"
+    "hash": "280743d64f2889aacf2dfe49728883e4ff0bcdcf"
   },
   "group-industrial-machinery.html": {
     "date": "2026-11-13",
@@ -1733,7 +1741,7 @@
   },
   "group-industrial-manufacturing.html": {
     "date": "2026-11-13",
-    "hash": "98a1fe13b1a1a3485037041ffb4fe0751aca5346"
+    "hash": "1424c1d1439820d26c187d931d2a402a24e1dc50"
   },
   "group-inspection-certification.html": {
     "date": "2026-11-13",
@@ -1757,7 +1765,7 @@
   },
   "group-logistics-customs.html": {
     "date": "2026-11-13",
-    "hash": "79d862545d39d3a45c67853f0bc3f5c5aa09a2ab"
+    "hash": "210953df26ea39440be256ebb615a0b6a9f21594"
   },
   "group-professional-services.html": {
     "date": "2026-11-13",
@@ -1829,7 +1837,7 @@
   },
   "index.html": {
     "date": "2026-11-13",
-    "hash": "90152bbda7f34abe3b1e7f4751012f08b1865500"
+    "hash": "7e85f77b9b8757b915cd992e4509a7a47a751bba"
   },
   "industrial-air-compressors.html": {
     "date": "2026-11-13",
@@ -1905,11 +1913,11 @@
   },
   "lighting.html": {
     "date": "2026-11-13",
-    "hash": "8076886a5101b1de5cf3a5be7d380d9d52fbc6e5"
+    "hash": "2b974949388e916d430aec6f6a889d78cc9631d6"
   },
   "logistics.html": {
     "date": "2026-11-13",
-    "hash": "d918d8266316fcced648685a4b0e8dce2cf2bde0"
+    "hash": "99185808b429dd65676bd99ae33b11dad93b9518"
   },
   "luggage.html": {
     "date": "2026-11-13",
@@ -1929,7 +1937,7 @@
   },
   "new-energy.html": {
     "date": "2026-11-13",
-    "hash": "b5f61cfaca127fd44e581ba558759b39e75457c2"
+    "hash": "497e6838890579adbcd361261433e7a625e6af99"
   },
   "optical-instruments.html": {
     "date": "2026-11-13",
@@ -1945,7 +1953,7 @@
   },
   "packaging.html": {
     "date": "2026-11-13",
-    "hash": "ef06894ad24814c92db8fa5a9a1d24985c4ef1e2"
+    "hash": "fb337292f6cbcd877d36454b14cbd4ff53208568"
   },
   "partners.html": {
     "date": "2026-11-13",
@@ -2037,39 +2045,43 @@
   },
   "region-ai-animation-hangzhou.html": {
     "date": "2026-11-13",
-    "hash": "90b91427b029542cf9b2780a2d923e27bc156022"
+    "hash": "f5fae041e5d7caa424575e1c8b1742740ba098cb"
   },
   "region-ai-animation-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "8940433635352fc145e6139c30782a945a3ab62b"
+    "hash": "f2c89718a9768e2c21484e04f53404c0c18a6b0c"
   },
   "region-ai-beijing.html": {
     "date": "2026-11-13",
-    "hash": "a57a92ee0c5b9c59824acb008a5c6ab5fe9ef7b5"
+    "hash": "8b0dba34b37aeef19d7e794539ffff542fc967ac"
   },
   "region-ai-china.html": {
     "date": "2026-11-13",
-    "hash": "f4408e9f310d1fec5eb4c933947d01ddaf331289"
+    "hash": "2cb35f72302fcf06195cd309c0dd262e8b89b1e5"
   },
   "region-ai-production-beijing.html": {
     "date": "2026-11-13",
-    "hash": "3f4e603db7cdae668c1c7fbb8fa573ea328485bb"
+    "hash": "020ed83fd39e6b6941cac526a7ec6c4f2e6b80c2"
   },
   "region-ai-production-guangzhou.html": {
     "date": "2026-11-13",
-    "hash": "842467636e59b2395a3d0ef8a19e6d2f899444f2"
+    "hash": "b268da1b1a7078a3c58aa7bd03f569b395ea2a2d"
+  },
+  "region-ai-production-shanghai.html": {
+    "date": "2026-11-13",
+    "hash": "9f67b687125cdbf5dbe42420167a14fba3e88008"
   },
   "region-ai-production-shenzhen.html": {
     "date": "2026-11-13",
-    "hash": "d66fed2c38ab548fa605989778f3b7865a67ee93"
+    "hash": "23d2278fb73099a3dc59159e83ab30c7cf4cf4b3"
   },
   "region-ai-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "4e72c36917317d9e6ff0d106880d403632f9efc1"
+    "hash": "0739b53dfc2be1bfd84c0e5136a5654f036ccac2"
   },
   "region-ai-shenzhen.html": {
     "date": "2026-11-13",
-    "hash": "a61000a553b6c922ada0a0cda2b461fa69b7c88e"
+    "hash": "f520031ef9c5a84956cad9edc7ebc1d43d2ec23b"
   },
   "region-apparel-china.html": {
     "date": "2026-11-13",
@@ -2097,107 +2109,107 @@
   },
   "region-auto-parts-anhui.html": {
     "date": "2026-11-13",
-    "hash": "af5c7973561cf5ce2435d9983b6d88c9f8ce5d01"
+    "hash": "a5d8b07a1065a2e624a68e4d659ccafe6c15b731"
   },
   "region-auto-parts-changzhou.html": {
     "date": "2026-11-13",
-    "hash": "7ba24d33eaeeea23adaafe7a47b86cf952727df4"
+    "hash": "aa77a528c97a9a34b06b8d44483d677238e4143b"
   },
   "region-auto-parts-china.html": {
     "date": "2026-11-13",
-    "hash": "5d430247a217cce84d59149fa957e010fca91bfb"
+    "hash": "a340c8df0592d3f4f6ca5f58ff3d589d72307197"
   },
   "region-auto-parts-chongqing.html": {
     "date": "2026-11-13",
-    "hash": "af635a59dfb363104f4812a10cb092692f7596ea"
+    "hash": "c3df04665252c2b1897db79952e02a549a09a760"
   },
   "region-auto-parts-dongguan.html": {
     "date": "2026-11-13",
-    "hash": "167ebe0ff7571a97ccee385ff409e380d9fe5390"
+    "hash": "1e62fc3dd5a74ea7c64d9fc6828175bdf0ef460e"
   },
   "region-auto-parts-foshan.html": {
     "date": "2026-11-13",
-    "hash": "b7bef56db9bff1e24406bbbdf782e3b879ad0f09"
+    "hash": "5a3783ad51aa1d22c219c14c46d548eba73c723d"
   },
   "region-auto-parts-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "484c283c44a7ef6f6f21c8e6b403ccc2a04cf304"
+    "hash": "5a0ca44ea85d57cd49c8a56b80db28a99b1a5153"
   },
   "region-auto-parts-guangzhou-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "b9f771172bbff061f63d95576d4cb1818e8361a6"
+    "hash": "33f175d750a80dc6b64ed8878690e435015ac66f"
   },
   "region-auto-parts-guangzhou.html": {
     "date": "2026-11-13",
-    "hash": "adc52e84eb69f0a1d1e98885e5fa27ea7348aaaa"
+    "hash": "14b43dfb6d24f79b6496f79ab9416f8c13c9f0db"
   },
   "region-auto-parts-hangzhou.html": {
     "date": "2026-11-13",
-    "hash": "20aa0f4db35acadeecd5712126075d8e26c76924"
+    "hash": "209b976e7ba6e6a76a73697bb5c57a6e85af7cc2"
   },
   "region-auto-parts-hebei.html": {
     "date": "2026-11-13",
-    "hash": "850a191011c7522602c074641705765d78914f3a"
+    "hash": "8f1dca2d827d1b055ab932c4d4dbe05d03794c69"
   },
   "region-auto-parts-henan.html": {
     "date": "2026-11-13",
-    "hash": "909446c7c6cd0c6cf6f1393796c64d7a62d75f0d"
+    "hash": "2a38e8a787e2a8fa21d39b0f2b591f309dbc0303"
   },
   "region-auto-parts-hubei.html": {
     "date": "2026-11-13",
-    "hash": "1a299ff205511b9b7d30880be1ddb9b9cf37a79a"
+    "hash": "ae5a704670e894422480bd1cfb1e1e0ca23a9d17"
   },
   "region-auto-parts-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "b9d83a30f701be5bedf5d609bf1084b78ae7aa75"
+    "hash": "e7b12cab2e4206f83b2da20fe82aefeb7a506b23"
   },
   "region-auto-parts-jiangxi.html": {
     "date": "2026-11-13",
-    "hash": "c1fc6a780e998f7c389e8389d4e71bbcd3dad35e"
+    "hash": "da159a488ac9bde320cfe5604dfbf97a7ce8017a"
   },
   "region-auto-parts-ningbo-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "3811b11a4a1f0540bd4c1fa7182c8dfff73217e3"
+    "hash": "b239c812ff483a3217ba9b338886d4090094ee0b"
   },
   "region-auto-parts-ningbo.html": {
     "date": "2026-11-13",
-    "hash": "da995991e49a5e188e8a06af4ebde19da82936fe"
+    "hash": "5d399d2fcc81853d32221c0621b07ea44b300fc8"
   },
   "region-auto-parts-qingdao.html": {
     "date": "2026-11-13",
-    "hash": "be66e398f174e73c544ec93f8e53622080ab9581"
+    "hash": "51d83153ee9b174fdb84f993405a41c48a6af756"
   },
   "region-auto-parts-ruian.html": {
     "date": "2026-11-13",
-    "hash": "c4e47f84f6d74b9ffb00584ac1845986e150fd24"
+    "hash": "ffa065e188490e43058730c250e6eda60794ca91"
   },
   "region-auto-parts-shandong.html": {
     "date": "2026-11-13",
-    "hash": "2fb64f0dc9c9a206bc5254cfaab4f80d658c6d8d"
+    "hash": "96a2b3d20bbf2e894bf025b752ba34513f7346b5"
   },
   "region-auto-parts-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "fd68f81976a6a2a5ad72d704469f77e440ecd1e3"
+    "hash": "1f0b90cbd3179c9311920af1596fc8c1a3c2b7cd"
   },
   "region-auto-parts-shenzhen.html": {
     "date": "2026-11-13",
-    "hash": "c9b31c90cba45503b7d858b3092017e23ce84f3e"
+    "hash": "a72385210eca0777f0af3e6900d6407ff437c3f4"
   },
   "region-auto-parts-taizhou.html": {
     "date": "2026-11-13",
-    "hash": "93040084395ead1bab7f084855a91b36d65eabc9"
+    "hash": "92a4ba201f6a75f7bb2d91fce88923ee75d9f9d7"
   },
   "region-auto-parts-wenzhou-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "3d913837d2f7b4e7b9851bc1585e3321db021bbc"
+    "hash": "4637c6a8fb0bc724cdfd5bb67e445c7a02c866e2"
   },
   "region-auto-parts-wenzhou.html": {
     "date": "2026-11-13",
-    "hash": "bb7f999e07b71a5de727fb8e14ea89d11e6b0139"
+    "hash": "9c9914d2616e32da39cfe0abe5eca407740b0f4d"
   },
   "region-auto-parts-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "2919a491d9b49cfd772a2034946bc0fb5e1feb41"
+    "hash": "a1bff0d601fd5a09db1a9e46255c51a6d28b08c1"
   },
   "region-beauty-guangzhou.html": {
     "date": "2026-11-13",
@@ -2445,43 +2457,43 @@
   },
   "region-electronic-components-china.html": {
     "date": "2026-11-13",
-    "hash": "451b8c83b465ced8aa6292fe2f2f12b55ad3e9d2"
+    "hash": "eae0cbf24ac491b35d19ccb45923d420609a75d5"
   },
   "region-electronic-components-dongguan-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "4fd69e324cc7a0b7b5059c0ae7a58c2924b90ba1"
+    "hash": "6c2967e5f257f7b6473ccae1ca234c1932f4cfbd"
   },
   "region-electronic-components-dongguan.html": {
     "date": "2026-11-13",
-    "hash": "f4377cea53db8fc1af95f92ecd09352bc120f99d"
+    "hash": "d215d807b4a093aec2c7b8a6f9ee12a06bbad897"
   },
   "region-electronic-components-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "a74f26b631374a1f273ab08d3fc80ab606aef6e3"
+    "hash": "69777c442f63daf07fa30af145e7fb73459c93ff"
   },
   "region-electronic-components-other-2.html": {
     "date": "2026-11-13",
-    "hash": "4e2d56837f8be3884e2675742aec40f171699c4a"
+    "hash": "103bac72590add991f7d3b7ecef12427f9939e0c"
   },
   "region-electronic-components-other.html": {
     "date": "2026-11-13",
-    "hash": "1b3839fd7e00a4d667bed57ab49cea28891ca741"
+    "hash": "1b6312abed550e1b943c7765a451ec90a65bf57c"
   },
   "region-electronic-components-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "503c85c07ef026a0f3be333b8c36835a3e6ba157"
+    "hash": "b0a1c0d936d6e465878887e7c9b88866dfc11422"
   },
   "region-electronic-components-shenzhen-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "159eaed3ca71ec936791ed20687a67e7a1ea2dc7"
+    "hash": "482df879747edf67d6f6c3c2fab2a3f107ad958c"
   },
   "region-electronic-components-shenzhen.html": {
     "date": "2026-11-13",
-    "hash": "45bc0a00291aad47a28ba0ff5aea7e93819a98ed"
+    "hash": "f011151a091ac431e89e3477eb881dd91c2df6ae"
   },
   "region-electronic-components-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "87528104eaba5f280ae5a0a99510f42ecfefe5a6"
+    "hash": "394fa279b2d21a1174195170ab22d956939cc0e2"
   },
   "region-electronics-accessories-dongguan-guangdong.html": {
     "date": "2026-11-13",
@@ -2545,31 +2557,31 @@
   },
   "region-fasteners-valves-other-2.html": {
     "date": "2026-11-13",
-    "hash": "d52dc34574b19ed4c86727dac2e81e4cb655aafa"
+    "hash": "687f77e55ff154bc39e07a7a3fb9a9ae178a073a"
   },
   "region-fasteners-valves-other-3.html": {
     "date": "2026-11-13",
-    "hash": "73a2e8f2313c340d51a96897cc73899e67991434"
+    "hash": "d4cba2690ea4e15a2e5299bdb57e3acf0ad711d9"
   },
   "region-fasteners-valves-other-4.html": {
     "date": "2026-11-13",
-    "hash": "418c2d60339d31afe6dfac8751b6f2c8484f66f2"
+    "hash": "5bb87111481fc56f325719f4df28af626b20bb8c"
   },
   "region-fasteners-valves-other-5.html": {
     "date": "2026-11-13",
-    "hash": "d16dd52b1a9eb6070488e0b0bf58fe19d8f8be0e"
+    "hash": "bbd80263d3c4c20b5521bb5fd5dbbc75e994a78f"
   },
   "region-fasteners-valves-other-6.html": {
     "date": "2026-11-13",
-    "hash": "06bdab7e0afa9c1571363efac84a830516fe1c9a"
+    "hash": "64543cb26ecd032508e5b40d3eb71b83c11f826b"
   },
   "region-fasteners-valves-other-7.html": {
     "date": "2026-11-13",
-    "hash": "176b3b7cb9ab7337a9c8280459c9f990f54b0212"
+    "hash": "12b99442042203f4d52de937c2b1a5cbcc96b11a"
   },
   "region-fasteners-valves-other.html": {
     "date": "2026-11-13",
-    "hash": "190dd29ec9d477011c641c028650c15769622d59"
+    "hash": "904f3ff67add99e6c7f992b8d11e951b72bc403a"
   },
   "region-finance-beijing.html": {
     "date": "2026-11-13",
@@ -2601,7 +2613,7 @@
   },
   "region-food-beverage-china.html": {
     "date": "2026-11-13",
-    "hash": "816c41e387a34e4ecdae82367806df7aaf2bca52"
+    "hash": "ed071421262b894a55507aa98e8f5afd1d5ad262"
   },
   "region-food-machinery-henan.html": {
     "date": "2026-11-13",
@@ -2673,39 +2685,39 @@
   },
   "region-furniture-oem-anji-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "e5046c907162465eba944e66025108c867214c5b"
+    "hash": "09a1ccd5786213d0bc041a0570a3c6bf1e6b8b77"
   },
   "region-furniture-oem-china.html": {
     "date": "2026-11-13",
-    "hash": "85e25693086fb81e69dc234396bbe026d2a97e23"
+    "hash": "1e93b3cb5e250d20acda9eef4a91cad09280b5d8"
   },
   "region-furniture-oem-dongguan-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "856d6deaf2fd8ecd34151b3825f7b4ba8e1e5fce"
+    "hash": "77dc2f71f87e8c1acc726123a846736d2ed5cbca"
   },
   "region-furniture-oem-foshan-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "e78a5bde41ac7d98f0ddc36c7dcc3c84953fe646"
+    "hash": "b3c90c10d40cb696c4dd75353c2c91c86be8ec0f"
   },
   "region-furniture-oem-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "9003451e7cc654e7d271949bdecae6c450061f7c"
+    "hash": "e34bc4c1758be031e1f6293271a8d7b14fb6f4fe"
   },
   "region-furniture-oem-guangzhou-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "0e5e6d4051a444ec64be16bc707d3375ae873113"
+    "hash": "b6a54b5a60014c2dc368a2171ad4767d9fbc568b"
   },
   "region-furniture-oem-hangzhou-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "5220c548435a9546cc2dde69bfeae69b78769936"
+    "hash": "b3f5ccd952ff5b3080e8ddc950b763883ae520d9"
   },
   "region-furniture-oem-huizhou-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "1d72b69b2d14c13547a6f1a0f1079bee40b0ca7c"
+    "hash": "bf95e73d13c9713ae5afc74e68f1c84cb6e8ffc1"
   },
   "region-furniture-oem-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "b02fd920c33c9ba234cfaa39a06d61b4a9c8dd8b"
+    "hash": "4f063dcc931491619b2dce1fff97d67bce86cf33"
   },
   "region-hardware-tools-other-10.html": {
     "date": "2026-11-13",
@@ -2973,119 +2985,119 @@
   },
   "region-lighting-china.html": {
     "date": "2026-11-13",
-    "hash": "2fae0fd6319d48f4b72070c97bb2b8fedbe4bd7f"
+    "hash": "baf0cdd79783971870cea289a42d2ce74d3308ae"
   },
   "region-lighting-other-10.html": {
     "date": "2026-11-13",
-    "hash": "9ce4d757994fbe24c0551576b051f6b1b4a9597f"
+    "hash": "b6e7b3491ff6a7666fc69a295bf46d9c32f46600"
   },
   "region-lighting-other-2.html": {
     "date": "2026-11-13",
-    "hash": "08b7176d927697253dd4e0faa4bb0ee2865b7c48"
+    "hash": "c35a9be7537f5c8d18d9e6ecffcb8fc93e2dd150"
   },
   "region-lighting-other-3.html": {
     "date": "2026-11-13",
-    "hash": "61de80e3b0ec5f9a4a840b3476e676dae777d6fd"
+    "hash": "22f88178a3ef319ac227d0ee550e2b60b2e3d3b0"
   },
   "region-lighting-other-4.html": {
     "date": "2026-11-13",
-    "hash": "34e90a2273033cf9605ffa0aa1d7ce4261a4569c"
+    "hash": "8a316ffa969a207834a1bc3e99988be215cf66e2"
   },
   "region-lighting-other-5.html": {
     "date": "2026-11-13",
-    "hash": "95ec1fa5cd6604e6218e7af453f16d8622bc3593"
+    "hash": "4bb9be6a58995e24b91b1ff7047dcf79d870f31b"
   },
   "region-lighting-other-6.html": {
     "date": "2026-11-13",
-    "hash": "f8fc865d2b2bb5e310b359c378bd872849adc4b1"
+    "hash": "ed5ee0d62d0388728fea6a8704cc4ecb773247ea"
   },
   "region-lighting-other-7.html": {
     "date": "2026-11-13",
-    "hash": "9c8badee565f98f52e00031efc6930edb99146b5"
+    "hash": "ec34c38c5537e6298b44c7478504378217b4e991"
   },
   "region-lighting-other-8.html": {
     "date": "2026-11-13",
-    "hash": "b58751e5fc4fc7d3cc72f380fa9f891034768221"
+    "hash": "ff6483344c25a4aff6b203464466eb3331199039"
   },
   "region-lighting-other-9.html": {
     "date": "2026-11-13",
-    "hash": "d4437ea7a30115eacb0061e7a8dd0631940bfbc2"
+    "hash": "7c47804cbe6c4ea7ac46fbd0b5ff5bf450b5e737"
   },
   "region-lighting-other.html": {
     "date": "2026-11-13",
-    "hash": "633e92bf0899bf7235cd24a9ff7be9b1b62cca9b"
+    "hash": "2ba374123bb3325e504b63b25cf0079f0f69767c"
   },
   "region-logistics-beijing.html": {
     "date": "2026-11-13",
-    "hash": "85f205fbd378d748f4f1e3990c40956fa80a32be"
+    "hash": "16bbf414991adfda5a44d45ed89c60b55518aa92"
   },
   "region-logistics-china.html": {
     "date": "2026-11-13",
-    "hash": "75db294902b06cc142d3cc61f8037b5ec65f0f7c"
+    "hash": "267c067a7ebeb35a46aeea83e046a524801a9017"
   },
   "region-logistics-dalian-liaoning.html": {
     "date": "2026-11-13",
-    "hash": "5f98f1e0381b2d032009de5413f38a4fce77ca31"
+    "hash": "71eb0b2c2de3ff0172cc12a2609533f2335b3a21"
   },
   "region-logistics-guangzhou-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "0820146a2f494ad27a27f3d432e5ff2e0a40f5aa"
+    "hash": "583b301125c242d417696ff6827620a927e3a7e4"
   },
   "region-logistics-hong-kong.html": {
     "date": "2026-11-13",
-    "hash": "0526972089974a6d12e09983598553a9a0715d1e"
+    "hash": "6b42050f0994a12fc961236e66d84adb8c945c96"
   },
   "region-logistics-kunming-yunnan.html": {
     "date": "2026-11-13",
-    "hash": "d46cf7ab2ccdf42fe2524a4e6badc963c9a95a24"
+    "hash": "e4c0740e7ad5d43eb89f251fafb3ad20733dae11"
   },
   "region-logistics-ningbo-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "cbaff4dfeea165fdf510fc4e902566013e0f215b"
+    "hash": "a694e70a91e7fa2410b5d74ee326367780b5d02c"
   },
   "region-logistics-other-2.html": {
     "date": "2026-11-13",
-    "hash": "912441177252ab234995ba1ad5a6e808c263052e"
+    "hash": "2246680990cb89f3bdedf60c2c53cbc8079a5019"
   },
   "region-logistics-other.html": {
     "date": "2026-11-13",
-    "hash": "e2d57ba5310c5d334b066be0b8fa47c1ec7971e7"
+    "hash": "c0f2595948c0602abf623a4291e39becfa2604c9"
   },
   "region-logistics-panjin-liaoning.html": {
     "date": "2026-11-13",
-    "hash": "30f44b8db7b1674dd2b6e95a1114702b398f403c"
+    "hash": "def143ee74b35dfa8422cb4b03711598abe32a16"
   },
   "region-logistics-qingdao-shandong.html": {
     "date": "2026-11-13",
-    "hash": "af772aa22e6712908a939211b41c05d00c519822"
+    "hash": "2f63e621351af263de5cbdcc4274b9e9e6ad9f58"
   },
   "region-logistics-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "d992732aecd8bc6c9f0cc1160fae34fb1b450cc2"
+    "hash": "e52e20764af5ac58a58787f1d6d3fe3a80e4b175"
   },
   "region-logistics-shenyang-liaoning.html": {
     "date": "2026-11-13",
-    "hash": "e96b57ad4ecd966935f0bbb9b5115fb106b621dc"
+    "hash": "f135d5b2dc5c9f85e9a573492eecfe2e38e07946"
   },
   "region-logistics-shenzhen-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "fe4c393fd0ea8fec4eafdb6d82ead5ee106cc887"
+    "hash": "f8a6e348697d6b218e7e903c743a2d0b76ea4829"
   },
   "region-logistics-taiyuan-shanxi.html": {
     "date": "2026-11-13",
-    "hash": "0dc4431ae98f0be0624c206dd65cc396b0f82f85"
+    "hash": "e970ccf73f0ab29651b9cb9e081c8f212ac90772"
   },
   "region-logistics-tianjin.html": {
     "date": "2026-11-13",
-    "hash": "59f11e80e36c5c31833864d9b01e12e22f03a9e7"
+    "hash": "5e7f1985f8d7fde8f8b610fb3e616f07c2eafdcf"
   },
   "region-logistics-xi-an-shaanxi.html": {
     "date": "2026-11-13",
-    "hash": "6e389af414ef1d11f4265b57d78ec60700444be3"
+    "hash": "1c6c56827c703ad58ff2b7e28ce8246ebfd3a262"
   },
   "region-logistics-xiamen-fujian.html": {
     "date": "2026-11-13",
-    "hash": "6dda8432769150e58940ef2f1a0be630abb1f1ce"
+    "hash": "116e4f1e99f45a8e14b261349eae2d50673856c5"
   },
   "region-luggage-other-10.html": {
     "date": "2026-11-13",
@@ -3161,35 +3173,35 @@
   },
   "region-new-energy-china.html": {
     "date": "2026-11-13",
-    "hash": "09750fa5a1cb228dfec918318dcd5ba2c545b408"
+    "hash": "6c37826ed96c18bbbc512b5240a32c92f0ab1a40"
   },
   "region-new-energy-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "264265adcd1ff1da3a38a91ba21951c3a83d4cf9"
+    "hash": "5ec15e761ae88f76048bfd94021fe00ccfd7db19"
   },
   "region-new-energy-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "17053169b596f223696d2363a584abcb4647e941"
+    "hash": "0fce8bb08fc735905f901a3314273e7bc1640b9a"
   },
   "region-new-energy-ningbo-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "06bef908ee3483a7213e1355bb6c556d30d56785"
+    "hash": "262b88ad2759fdd649e5eb1df08a9a78e6c3d5d5"
   },
   "region-new-energy-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "ca973cddc0c5a665e7ead844246bd94d3649777c"
+    "hash": "f25307187751957ec3dae01c457c951342d60b80"
   },
   "region-new-energy-shenzhen-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "6a0fc581182d6588880d4859a3605becbe3f50c0"
+    "hash": "1c86b1daed323e342c70ede60706645b60f9bd5e"
   },
   "region-new-energy-shenzhen.html": {
     "date": "2026-11-13",
-    "hash": "09f550f914f8789a07fb3b29d40c2800e3d64d08"
+    "hash": "1c99d93aed4b112dcf8b2e3c1140dd00a6adb3ec"
   },
   "region-new-energy-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "935a8f87e3f1fa17bc7d828f3920391c54cad2ba"
+    "hash": "5c481a50646fe7b784615d61022245fa910b488e"
   },
   "region-optical-instruments-china.html": {
     "date": "2026-11-13",
@@ -3197,11 +3209,11 @@
   },
   "region-packaging-cangnan.html": {
     "date": "2026-11-13",
-    "hash": "6a977d3dcaf14e43987d2744aaa54fb029671c74"
+    "hash": "f433ee43012b09bd9479e11a2229f99a26533a02"
   },
   "region-packaging-china.html": {
     "date": "2026-11-13",
-    "hash": "18d6e82e4e10edd5c61a8135135cbca4b93e58bf"
+    "hash": "458482a2b759c8ce30fb54ab1c2e53f4986ed33c"
   },
   "region-partners-anning-kunming.html": {
     "date": "2026-11-13",
@@ -3525,55 +3537,55 @@
   },
   "region-textiles-china.html": {
     "date": "2026-11-13",
-    "hash": "9c57e9782aa1dd51ab3e1db7fa4ba705b995909c"
+    "hash": "6505d1edac8ba77ee3bf9b31bf4aaa642247be20"
   },
   "region-textiles-guangzhou-guangdong.html": {
     "date": "2026-11-13",
-    "hash": "c8c0e60a3c9c27024c3986aeb898aa782faed60a"
+    "hash": "eee877beac2b9d1246e7b23ef64301f0f5a8ee42"
   },
   "region-textiles-hangzhou-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "5dee6caa038e6e8d64788a8cae435d5e7251cde5"
+    "hash": "cbafedfc2675d306ecb061e468fe3bdac4773e96"
   },
   "region-textiles-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "8c1035b432994968857622b6019c30d3d9a3e4d8"
+    "hash": "03832b4e1a7010db64602ee8e2f3b83773b14b7f"
   },
   "region-textiles-keqiao-shaoxing-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "b54a8b175326388f59e60f1e026cbdf1b8a19318"
+    "hash": "c6e3218086515fe390f32003969ab79f23034633"
   },
   "region-textiles-nantong-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "05e112f7e6a152abf9633cb33aefc0fa6f7dfe6f"
+    "hash": "909a85b8778ef8d11f07a9a8b290f3ad12617a95"
   },
   "region-textiles-ningbo-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "80560654d0f0af809019c88c4cb750da95445641"
+    "hash": "763cc3a3bea162b4a6fa346df2fcee52c9dd4a11"
   },
   "region-textiles-shanghai.html": {
     "date": "2026-11-13",
-    "hash": "53a7c89cfcff058b6c9e32d183c1417fd125f08a"
+    "hash": "d2f0e67240a2f9591c09a5da71072bbf85015d71"
   },
   "region-textiles-shaoxing-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "a3312fdee596bb6679818828a566988696dd2a40"
+    "hash": "041507b52becebc97ca811e2b4d77d9b63ed4d10"
   },
   "region-textiles-shengze-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "b09a0b3dd125746351191ae875cbe692153c710a"
+    "hash": "8d6fad5c1011e8ae5590f68dba8fcce3fda9c943"
   },
   "region-textiles-suzhou-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "977d12b58d45e5967fb8b4c1583efcb9ef3e033f"
+    "hash": "9798a34ebdd9dd11ebff78a2b8f888bbc591756c"
   },
   "region-textiles-wujiang-jiangsu.html": {
     "date": "2026-11-13",
-    "hash": "7aed92961b16a17d848c8f28628fe02771c05f9e"
+    "hash": "361b07fb2e5d96f0d2b29958cecb09b0aefed2e3"
   },
   "region-textiles-zhejiang.html": {
     "date": "2026-11-13",
-    "hash": "4ffaa46c27e9913427517414f4daa3bb86f8e673"
+    "hash": "65c0b775039cd7eab1d91cd62bc44766ce16eaed"
   },
   "region-toys-other.html": {
     "date": "2026-11-13",
@@ -3777,7 +3789,7 @@
   },
   "textiles.html": {
     "date": "2026-11-13",
-    "hash": "7d2454c8d91e087751ae0030d977000f7e29a698"
+    "hash": "8b9717749cf247d5fd647907cbeee3ad58654ad5"
   },
   "toys.html": {
     "date": "2026-11-13",
@@ -3797,7 +3809,7 @@
   },
   "updates.html": {
     "date": "2026-11-13",
-    "hash": "cc2f1d56c9b79c9d33d50bf5267d640cdb851aa0"
+    "hash": "58513c087b8ad17d5a9a8861b4b1005fd90deefa"
   },
   "verification.html": {
     "date": "2026-11-13",
@@ -3821,7 +3833,7 @@
   },
   "wizard.html": {
     "date": "2026-11-13",
-    "hash": "bf4479098c7aec4b71e315889efa9342a59745ca"
+    "hash": "0d1ab061215316795236697da09eb4911d6d2552"
   },
   "woodworking-machinery.html": {
     "date": "2026-11-13",
